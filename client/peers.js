@@ -15,7 +15,8 @@ export function sortTable(table) {
 	let mode = getMode();
 	let direction = th.getAttribute("aria-sort") === "ascending" ? 1 : -1;
 	let value = (row) => cellValue(row.children[index], mode);
-	let rows = [...table.tBodies[0].children].sort((a, b) => {
+	let expand = table.querySelector("[data-samples-expand]");
+	let rows = [...table.tBodies[0].children].filter((row) => row !== expand).sort((a, b) => {
 		if (th.dataset.sort === "text") return value(a).localeCompare(value(b)) * direction;
 		// Rows without a value (failed builds) always sort last.
 		let [x, y] = [value(a), value(b)].map((v) => (v === "" ? NaN : Number(v)));
@@ -23,6 +24,7 @@ export function sortTable(table) {
 		return (x - y) * direction;
 	});
 	table.tBodies[0].append(...rows);
+	if (expand) rows[0].after(expand);
 }
 
 export function applyMode(scope = document) {

@@ -36,6 +36,14 @@ for (let table of document.querySelectorAll("table[data-sortable]")) {
 	}
 }
 
+document.querySelector("[data-samples-expand] button")?.addEventListener("click", (event) => {
+	let row = event.currentTarget.closest("tr");
+	row.closest("table").dataset.expanded = "";
+	let next = row.nextElementSibling;
+	row.remove();
+	next?.querySelector("a")?.focus();
+});
+
 applyMode();
 
 if (document.querySelector("[data-lookup]")) {
