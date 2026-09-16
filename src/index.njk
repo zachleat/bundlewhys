@@ -1,0 +1,26 @@
+---
+layout: layout.njk
+---
+<h1>Front-end bundle sizes</h1>
+<p>What an npm package costs when you import the whole thing into a browser bundle.</p>
+
+<form class="lookup" action="/" method="get" data-lookup>
+	<label for="package">Package</label>
+	<div class="lookup-row">
+		<input id="package" name="package" type="search" placeholder="preact, lodash-es@4, react-dom/client" autocomplete="off" autocapitalize="off" spellcheck="false" required>
+		<button type="submit">Measure</button>
+	</div>
+	<p class="hint">Try
+		{%- for shortcut in ["react-textarea-autosize", "react-dom", "vue", "jquery", "date-fns/format"] %}
+		<a href="/?package={{ shortcut | urlencode }}" data-lookup-shortcut>{{ shortcut }}</a>{% if loop.revindex == 2 %}, or{% elif not loop.last %},{% else %}.{% endif %}
+		{%- endfor %}
+		Bundled right here in your browser from the npm registry.
+	</p>
+	{% include "peers-switch.njk" %}
+</form>
+<p class="status" data-lookup-status role="status"></p>
+<section data-lookup-result aria-live="polite"></section>
+
+<h2>Samples</h2>
+
+{{ sizes.packages | renderSamplesTable | safe }}

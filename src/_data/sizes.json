@@ -1,0 +1,1940 @@
+{
+	"generatedAt": "2026-09-16T13:45:04.878Z",
+	"packages": [
+		{
+			"specifier": "@11ty/is-land",
+			"entry": "@11ty/is-land",
+			"name": "@11ty/is-land",
+			"version": "5.0.1",
+			"description": "A framework independent partial hydration islands architecture implementation.",
+			"peerDependencies": [],
+			"include": {
+				"unminified": {
+					"size": 10394,
+					"gzip": 3228,
+					"brotli": 2792
+				},
+				"minified": {
+					"size": 5350,
+					"gzip": 2233,
+					"brotli": 1984
+				},
+				"breakdown": [
+					{
+						"name": "@11ty/is-land",
+						"bytes": 5156,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 32028,
+					"packages": 1
+				}
+			},
+			"exclude": {
+				"unminified": {
+					"size": 10394,
+					"gzip": 3228,
+					"brotli": 2792
+				},
+				"minified": {
+					"size": 5350,
+					"gzip": 2233,
+					"brotli": 1984
+				},
+				"breakdown": [
+					{
+						"name": "@11ty/is-land",
+						"bytes": 5156,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 32028,
+					"packages": 1
+				}
+			},
+			"measuredAt": "2026-09-16T13:44:51.810Z"
+		},
+		{
+			"specifier": "@preact/signals",
+			"entry": "@preact/signals",
+			"name": "@preact/signals",
+			"version": "2.11.2",
+			"description": "Manage state with style in Preact",
+			"peerDependencies": [
+				"preact"
+			],
+			"include": {
+				"unminified": {
+					"size": 32993,
+					"gzip": 9823,
+					"brotli": 8792
+				},
+				"minified": {
+					"size": 21143,
+					"gzip": 8135,
+					"brotli": 7427
+				},
+				"breakdown": [
+					{
+						"name": "preact",
+						"bytes": 11788,
+						"peer": true
+					},
+					{
+						"name": "@preact/signals-core",
+						"bytes": 5259,
+						"peer": false
+					},
+					{
+						"name": "@preact/signals",
+						"bytes": 3986,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 2043175,
+					"packages": 3
+				}
+			},
+			"exclude": {
+				"unminified": {
+					"size": 15695,
+					"gzip": 4373,
+					"brotli": 3938
+				},
+				"minified": {
+					"size": 9427,
+					"gzip": 3533,
+					"brotli": 3259
+				},
+				"breakdown": [
+					{
+						"name": "@preact/signals-core",
+						"bytes": 5209
+					},
+					{
+						"name": "@preact/signals",
+						"bytes": 4109
+					}
+				],
+				"install": {
+					"size": 481918,
+					"packages": 2
+				}
+			},
+			"measuredAt": "2026-09-16T13:44:52.580Z"
+		},
+		{
+			"specifier": "alpinejs",
+			"entry": "alpinejs",
+			"name": "alpinejs",
+			"version": "3.17.3",
+			"description": "The rugged, minimal JavaScript framework",
+			"peerDependencies": [],
+			"include": {
+				"unminified": {
+					"size": 126081,
+					"gzip": 29905,
+					"brotli": 25644
+				},
+				"minified": {
+					"size": 56029,
+					"gzip": 19962,
+					"brotli": 18134
+				},
+				"breakdown": [
+					{
+						"name": "alpinejs",
+						"bytes": 55462,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 1125589,
+					"packages": 3
+				}
+			},
+			"exclude": {
+				"unminified": {
+					"size": 126081,
+					"gzip": 29905,
+					"brotli": 25644
+				},
+				"minified": {
+					"size": 56029,
+					"gzip": 19962,
+					"brotli": 18134
+				},
+				"breakdown": [
+					{
+						"name": "alpinejs",
+						"bytes": 55462,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 1125589,
+					"packages": 3
+				}
+			},
+			"measuredAt": "2026-09-16T13:44:52.317Z"
+		},
+		{
+			"specifier": "axios",
+			"entry": "axios",
+			"name": "axios",
+			"version": "1.20.0",
+			"description": "Promise based HTTP client for the browser and node.js",
+			"peerDependencies": [],
+			"include": {
+				"unminified": {
+					"size": 124966,
+					"gzip": 30771,
+					"brotli": 26541
+				},
+				"minified": {
+					"size": 51384,
+					"gzip": 19695,
+					"brotli": 17802
+				},
+				"breakdown": [
+					{
+						"name": "axios",
+						"bytes": 51274,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 2704282,
+					"packages": 27
+				}
+			},
+			"exclude": {
+				"unminified": {
+					"size": 124966,
+					"gzip": 30771,
+					"brotli": 26541
+				},
+				"minified": {
+					"size": 51384,
+					"gzip": 19695,
+					"brotli": 17802
+				},
+				"breakdown": [
+					{
+						"name": "axios",
+						"bytes": 51274,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 2704282,
+					"packages": 27
+				}
+			},
+			"measuredAt": "2026-09-16T13:44:52.448Z"
+		},
+		{
+			"specifier": "chart.js",
+			"entry": "chart.js",
+			"name": "chart.js",
+			"version": "4.5.1",
+			"description": "Simple HTML5 charts using the canvas element.",
+			"peerDependencies": [],
+			"include": {
+				"unminified": {
+					"size": 442356,
+					"gzip": 98995,
+					"brotli": 81733
+				},
+				"minified": {
+					"size": 205454,
+					"gzip": 70736,
+					"brotli": 61197
+				},
+				"breakdown": [
+					{
+						"name": "chart.js",
+						"bytes": 197311,
+						"peer": false
+					},
+					{
+						"name": "@kurkle/color",
+						"bytes": 7599,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 6257864,
+					"packages": 2
+				}
+			},
+			"exclude": {
+				"unminified": {
+					"size": 442356,
+					"gzip": 98995,
+					"brotli": 81733
+				},
+				"minified": {
+					"size": 205454,
+					"gzip": 70736,
+					"brotli": 61197
+				},
+				"breakdown": [
+					{
+						"name": "chart.js",
+						"bytes": 197311,
+						"peer": false
+					},
+					{
+						"name": "@kurkle/color",
+						"bytes": 7599,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 6257864,
+					"packages": 2
+				}
+			},
+			"measuredAt": "2026-09-16T13:44:53.331Z"
+		},
+		{
+			"specifier": "d3",
+			"entry": "d3",
+			"name": "d3",
+			"version": "7.9.0",
+			"description": "Data-Driven Documents",
+			"peerDependencies": [],
+			"include": {
+				"unminified": {
+					"size": 585779,
+					"gzip": 128120,
+					"brotli": 105945
+				},
+				"minified": {
+					"size": 283761,
+					"gzip": 96322,
+					"brotli": 81113
+				},
+				"breakdown": [
+					{
+						"name": "d3-geo",
+						"bytes": 35553,
+						"peer": false
+					},
+					{
+						"name": "d3-shape",
+						"bytes": 29836,
+						"peer": false
+					},
+					{
+						"name": "d3-scale-chromatic",
+						"bytes": 18110,
+						"peer": false
+					},
+					{
+						"name": "d3-array",
+						"bytes": 15052,
+						"peer": false
+					},
+					{
+						"name": "d3-hierarchy",
+						"bytes": 14534,
+						"peer": false
+					},
+					{
+						"name": "d3-scale",
+						"bytes": 14371,
+						"peer": false
+					},
+					{
+						"name": "d3-selection",
+						"bytes": 13298,
+						"peer": false
+					},
+					{
+						"name": "d3",
+						"bytes": 11196,
+						"peer": false
+					},
+					{
+						"name": "d3-transition",
+						"bytes": 11134,
+						"peer": false
+					},
+					{
+						"name": "d3-delaunay",
+						"bytes": 11049,
+						"peer": false
+					},
+					{
+						"name": "d3-color",
+						"bytes": 10350,
+						"peer": false
+					},
+					{
+						"name": "d3-time-format",
+						"bytes": 9350,
+						"peer": false
+					},
+					{
+						"name": "d3-zoom",
+						"bytes": 9321,
+						"peer": false
+					},
+					{
+						"name": "d3-brush",
+						"bytes": 9255,
+						"peer": false
+					},
+					{
+						"name": "d3-force",
+						"bytes": 7757,
+						"peer": false
+					},
+					{
+						"name": "d3-interpolate",
+						"bytes": 7045,
+						"peer": false
+					},
+					{
+						"name": "d3-contour",
+						"bytes": 5371,
+						"peer": false
+					},
+					{
+						"name": "delaunator",
+						"bytes": 5250,
+						"peer": false
+					},
+					{
+						"name": "d3-quadtree",
+						"bytes": 5004,
+						"peer": false
+					},
+					{
+						"name": "d3-format",
+						"bytes": 4934,
+						"peer": false
+					},
+					{
+						"name": "d3-time",
+						"bytes": 4650,
+						"peer": false
+					},
+					{
+						"name": "d3-chord",
+						"bytes": 4007,
+						"peer": false
+					},
+					{
+						"name": "d3-drag",
+						"bytes": 3688,
+						"peer": false
+					},
+					{
+						"name": "d3-random",
+						"bytes": 3561,
+						"peer": false
+					},
+					{
+						"name": "robust-predicates",
+						"bytes": 3418,
+						"peer": false
+					},
+					{
+						"name": "d3-dsv",
+						"bytes": 2898,
+						"peer": false
+					},
+					{
+						"name": "d3-axis",
+						"bytes": 2747,
+						"peer": false
+					},
+					{
+						"name": "d3-ease",
+						"bytes": 2346,
+						"peer": false
+					},
+					{
+						"name": "d3-path",
+						"bytes": 2123,
+						"peer": false
+					},
+					{
+						"name": "d3-timer",
+						"bytes": 1633,
+						"peer": false
+					},
+					{
+						"name": "d3-dispatch",
+						"bytes": 1550,
+						"peer": false
+					},
+					{
+						"name": "d3-polygon",
+						"bytes": 1193,
+						"peer": false
+					},
+					{
+						"name": "d3-fetch",
+						"bytes": 1160,
+						"peer": false
+					},
+					{
+						"name": "internmap",
+						"bytes": 907,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 4133801,
+					"packages": 38
+				}
+			},
+			"exclude": {
+				"unminified": {
+					"size": 585779,
+					"gzip": 128120,
+					"brotli": 105945
+				},
+				"minified": {
+					"size": 283761,
+					"gzip": 96322,
+					"brotli": 81113
+				},
+				"breakdown": [
+					{
+						"name": "d3-geo",
+						"bytes": 35553,
+						"peer": false
+					},
+					{
+						"name": "d3-shape",
+						"bytes": 29836,
+						"peer": false
+					},
+					{
+						"name": "d3-scale-chromatic",
+						"bytes": 18110,
+						"peer": false
+					},
+					{
+						"name": "d3-array",
+						"bytes": 15052,
+						"peer": false
+					},
+					{
+						"name": "d3-hierarchy",
+						"bytes": 14534,
+						"peer": false
+					},
+					{
+						"name": "d3-scale",
+						"bytes": 14371,
+						"peer": false
+					},
+					{
+						"name": "d3-selection",
+						"bytes": 13298,
+						"peer": false
+					},
+					{
+						"name": "d3",
+						"bytes": 11196,
+						"peer": false
+					},
+					{
+						"name": "d3-transition",
+						"bytes": 11134,
+						"peer": false
+					},
+					{
+						"name": "d3-delaunay",
+						"bytes": 11049,
+						"peer": false
+					},
+					{
+						"name": "d3-color",
+						"bytes": 10350,
+						"peer": false
+					},
+					{
+						"name": "d3-time-format",
+						"bytes": 9350,
+						"peer": false
+					},
+					{
+						"name": "d3-zoom",
+						"bytes": 9321,
+						"peer": false
+					},
+					{
+						"name": "d3-brush",
+						"bytes": 9255,
+						"peer": false
+					},
+					{
+						"name": "d3-force",
+						"bytes": 7757,
+						"peer": false
+					},
+					{
+						"name": "d3-interpolate",
+						"bytes": 7045,
+						"peer": false
+					},
+					{
+						"name": "d3-contour",
+						"bytes": 5371,
+						"peer": false
+					},
+					{
+						"name": "delaunator",
+						"bytes": 5250,
+						"peer": false
+					},
+					{
+						"name": "d3-quadtree",
+						"bytes": 5004,
+						"peer": false
+					},
+					{
+						"name": "d3-format",
+						"bytes": 4934,
+						"peer": false
+					},
+					{
+						"name": "d3-time",
+						"bytes": 4650,
+						"peer": false
+					},
+					{
+						"name": "d3-chord",
+						"bytes": 4007,
+						"peer": false
+					},
+					{
+						"name": "d3-drag",
+						"bytes": 3688,
+						"peer": false
+					},
+					{
+						"name": "d3-random",
+						"bytes": 3561,
+						"peer": false
+					},
+					{
+						"name": "robust-predicates",
+						"bytes": 3418,
+						"peer": false
+					},
+					{
+						"name": "d3-dsv",
+						"bytes": 2898,
+						"peer": false
+					},
+					{
+						"name": "d3-axis",
+						"bytes": 2747,
+						"peer": false
+					},
+					{
+						"name": "d3-ease",
+						"bytes": 2346,
+						"peer": false
+					},
+					{
+						"name": "d3-path",
+						"bytes": 2123,
+						"peer": false
+					},
+					{
+						"name": "d3-timer",
+						"bytes": 1633,
+						"peer": false
+					},
+					{
+						"name": "d3-dispatch",
+						"bytes": 1550,
+						"peer": false
+					},
+					{
+						"name": "d3-polygon",
+						"bytes": 1193,
+						"peer": false
+					},
+					{
+						"name": "d3-fetch",
+						"bytes": 1160,
+						"peer": false
+					},
+					{
+						"name": "internmap",
+						"bytes": 907,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 4133801,
+					"packages": 38
+				}
+			},
+			"measuredAt": "2026-09-16T13:45:04.869Z"
+		},
+		{
+			"specifier": "date-fns",
+			"entry": "date-fns",
+			"name": "date-fns",
+			"version": "4.4.0",
+			"description": "Modern JavaScript date utility library",
+			"peerDependencies": [],
+			"include": {
+				"unminified": {
+					"size": 188608,
+					"gzip": 29633,
+					"brotli": 24091
+				},
+				"minified": {
+					"size": 72975,
+					"gzip": 18413,
+					"brotli": 16048
+				},
+				"breakdown": [
+					{
+						"name": "date-fns",
+						"bytes": 72865,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 10902084,
+					"packages": 1
+				}
+			},
+			"exclude": {
+				"unminified": {
+					"size": 188608,
+					"gzip": 29633,
+					"brotli": 24091
+				},
+				"minified": {
+					"size": 72975,
+					"gzip": 18413,
+					"brotli": 16048
+				},
+				"breakdown": [
+					{
+						"name": "date-fns",
+						"bytes": 72865,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 10902084,
+					"packages": 1
+				}
+			},
+			"measuredAt": "2026-09-16T13:44:53.755Z"
+		},
+		{
+			"specifier": "dayjs",
+			"entry": "dayjs",
+			"name": "dayjs",
+			"version": "1.11.23",
+			"description": "2KB immutable date time library alternative to Moment.js with the same modern API ",
+			"peerDependencies": [],
+			"include": {
+				"unminified": {
+					"size": 14035,
+					"gzip": 4352,
+					"brotli": 3871
+				},
+				"minified": {
+					"size": 7744,
+					"gzip": 3390,
+					"brotli": 3104
+				},
+				"breakdown": [
+					{
+						"name": "dayjs",
+						"bytes": 7148,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 681693,
+					"packages": 1
+				}
+			},
+			"exclude": {
+				"unminified": {
+					"size": 14035,
+					"gzip": 4352,
+					"brotli": 3871
+				},
+				"minified": {
+					"size": 7744,
+					"gzip": 3390,
+					"brotli": 3104
+				},
+				"breakdown": [
+					{
+						"name": "dayjs",
+						"bytes": 7148,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 681693,
+					"packages": 1
+				}
+			},
+			"measuredAt": "2026-09-16T13:44:53.385Z"
+		},
+		{
+			"specifier": "dompurify",
+			"entry": "dompurify",
+			"name": "dompurify",
+			"version": "3.4.15",
+			"description": "DOMPurify is a DOM-only, super-fast, uber-tolerant XSS sanitizer for HTML, MathML and SVG. It runs as JavaScript and works in all modern browsers, as well as in Node.js (via jsdom). DOMPurify is written by security people who have vast background in web attacks and XSS. Fear not.",
+			"peerDependencies": [],
+			"include": {
+				"unminified": {
+					"size": 68677,
+					"gzip": 16831,
+					"brotli": 14643
+				},
+				"minified": {
+					"size": 28941,
+					"gzip": 11220,
+					"brotli": 10090
+				},
+				"breakdown": [
+					{
+						"name": "dompurify",
+						"bytes": 28565,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 1819949,
+					"packages": 1
+				}
+			},
+			"exclude": {
+				"unminified": {
+					"size": 68677,
+					"gzip": 16831,
+					"brotli": 14643
+				},
+				"minified": {
+					"size": 28941,
+					"gzip": 11220,
+					"brotli": 10090
+				},
+				"breakdown": [
+					{
+						"name": "dompurify",
+						"bytes": 28565,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 1819949,
+					"packages": 1
+				}
+			},
+			"measuredAt": "2026-09-16T13:44:53.523Z"
+		},
+		{
+			"specifier": "gsap",
+			"entry": "gsap",
+			"name": "gsap",
+			"version": "3.15.0",
+			"description": "GSAP is a framework-agnostic JavaScript animation library that turns developers into animation superheroes. Build high-performance animations that work in **every** major browser. Animate CSS, SVG, canvas, React, Vue, WebGL, colors, strings, motion paths, generic objects...anything JavaScript can touch! The ScrollTrigger plugin lets you create jaw-dropping scroll-based animations with minimal code. No other library delivers such advanced sequencing, reliability, and tight control while solving real-world problems on millions of sites. GSAP works around countless browser inconsistencies; your animations **just work**. At its core, GSAP is a high-speed property manipulator, updating values over time with extreme accuracy.",
+			"peerDependencies": [],
+			"include": {
+				"unminified": {
+					"size": 170448,
+					"gzip": 43867,
+					"brotli": 37121
+				},
+				"minified": {
+					"size": 71177,
+					"gzip": 27907,
+					"brotli": 25212
+				},
+				"breakdown": [
+					{
+						"name": "gsap",
+						"bytes": 70521,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 6258071,
+					"packages": 1
+				}
+			},
+			"exclude": {
+				"unminified": {
+					"size": 170448,
+					"gzip": 43867,
+					"brotli": 37121
+				},
+				"minified": {
+					"size": 71177,
+					"gzip": 27907,
+					"brotli": 25212
+				},
+				"breakdown": [
+					{
+						"name": "gsap",
+						"bytes": 70521,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 6258071,
+					"packages": 1
+				}
+			},
+			"measuredAt": "2026-09-16T13:44:54.073Z"
+		},
+		{
+			"specifier": "htmx.org",
+			"entry": "htmx.org",
+			"name": "htmx.org",
+			"version": "2.0.10",
+			"description": "high power tools for html",
+			"peerDependencies": [],
+			"include": {
+				"unminified": {
+					"size": 126794,
+					"gzip": 27221,
+					"brotli": 23246
+				},
+				"minified": {
+					"size": 60412,
+					"gzip": 18205,
+					"brotli": 16244
+				},
+				"breakdown": [
+					{
+						"name": "htmx.org",
+						"bytes": 60306,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 883941,
+					"packages": 1
+				}
+			},
+			"exclude": {
+				"unminified": {
+					"size": 126794,
+					"gzip": 27221,
+					"brotli": 23246
+				},
+				"minified": {
+					"size": 60412,
+					"gzip": 18205,
+					"brotli": 16244
+				},
+				"breakdown": [
+					{
+						"name": "htmx.org",
+						"bytes": 60306,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 883941,
+					"packages": 1
+				}
+			},
+			"measuredAt": "2026-09-16T13:44:54.310Z"
+		},
+		{
+			"specifier": "immer",
+			"entry": "immer",
+			"name": "immer",
+			"version": "11.1.18",
+			"description": "Create your next immutable state by mutating the current one",
+			"peerDependencies": [],
+			"include": {
+				"unminified": {
+					"size": 49024,
+					"gzip": 11306,
+					"brotli": 10037
+				},
+				"minified": {
+					"size": 18457,
+					"gzip": 6967,
+					"brotli": 6416
+				},
+				"breakdown": [
+					{
+						"name": "immer",
+						"bytes": 18347,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 956851,
+					"packages": 1
+				}
+			},
+			"exclude": {
+				"unminified": {
+					"size": 49024,
+					"gzip": 11306,
+					"brotli": 10037
+				},
+				"minified": {
+					"size": 18457,
+					"gzip": 6967,
+					"brotli": 6416
+				},
+				"breakdown": [
+					{
+						"name": "immer",
+						"bytes": 18347,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 956851,
+					"packages": 1
+				}
+			},
+			"measuredAt": "2026-09-16T13:44:54.146Z"
+		},
+		{
+			"specifier": "jquery",
+			"entry": "jquery",
+			"name": "jquery",
+			"version": "4.0.0",
+			"description": "JavaScript library for DOM operations",
+			"peerDependencies": [],
+			"include": {
+				"unminified": {
+					"size": 198806,
+					"gzip": 47716,
+					"brotli": 40391
+				},
+				"minified": {
+					"size": 79411,
+					"gzip": 28234,
+					"brotli": 25576
+				},
+				"breakdown": [
+					{
+						"name": "jquery",
+						"bytes": 78979,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 2889460,
+					"packages": 1
+				}
+			},
+			"exclude": {
+				"unminified": {
+					"size": 198806,
+					"gzip": 47716,
+					"brotli": 40391
+				},
+				"minified": {
+					"size": 79411,
+					"gzip": 28234,
+					"brotli": 25576
+				},
+				"breakdown": [
+					{
+						"name": "jquery",
+						"bytes": 78979,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 2889460,
+					"packages": 1
+				}
+			},
+			"measuredAt": "2026-09-16T13:44:54.979Z"
+		},
+		{
+			"specifier": "lit",
+			"entry": "lit",
+			"name": "lit",
+			"version": "3.3.3",
+			"description": "A library for building fast, lightweight web components",
+			"peerDependencies": [],
+			"include": {
+				"unminified": {
+					"size": 23059,
+					"gzip": 7375,
+					"brotli": 6531
+				},
+				"minified": {
+					"size": 16019,
+					"gzip": 6237,
+					"brotli": 5653
+				},
+				"breakdown": [
+					{
+						"name": "@lit/reactive-element",
+						"bytes": 7196,
+						"peer": false
+					},
+					{
+						"name": "lit-html",
+						"bytes": 7066,
+						"peer": false
+					},
+					{
+						"name": "lit-element",
+						"bytes": 793,
+						"peer": false
+					},
+					{
+						"name": "lit",
+						"bytes": 335,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 2952812,
+					"packages": 6
+				}
+			},
+			"exclude": {
+				"unminified": {
+					"size": 23059,
+					"gzip": 7375,
+					"brotli": 6531
+				},
+				"minified": {
+					"size": 16019,
+					"gzip": 6237,
+					"brotli": 5653
+				},
+				"breakdown": [
+					{
+						"name": "@lit/reactive-element",
+						"bytes": 7196,
+						"peer": false
+					},
+					{
+						"name": "lit-html",
+						"bytes": 7066,
+						"peer": false
+					},
+					{
+						"name": "lit-element",
+						"bytes": 793,
+						"peer": false
+					},
+					{
+						"name": "lit",
+						"bytes": 335,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 2952812,
+					"packages": 6
+				}
+			},
+			"measuredAt": "2026-09-16T13:44:56.298Z"
+		},
+		{
+			"specifier": "lodash",
+			"entry": "lodash",
+			"name": "lodash",
+			"version": "4.18.1",
+			"description": "Lodash modular utilities.",
+			"peerDependencies": [],
+			"include": {
+				"unminified": {
+					"size": 226403,
+					"gzip": 42303,
+					"brotli": 34780
+				},
+				"minified": {
+					"size": 73798,
+					"gzip": 26811,
+					"brotli": 23865
+				},
+				"breakdown": [
+					{
+						"name": "lodash",
+						"bytes": 72769,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 1413741,
+					"packages": 1
+				}
+			},
+			"exclude": {
+				"unminified": {
+					"size": 226403,
+					"gzip": 42303,
+					"brotli": 34780
+				},
+				"minified": {
+					"size": 73798,
+					"gzip": 26811,
+					"brotli": 23865
+				},
+				"breakdown": [
+					{
+						"name": "lodash",
+						"bytes": 72769,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 1413741,
+					"packages": 1
+				}
+			},
+			"measuredAt": "2026-09-16T13:44:54.670Z"
+		},
+		{
+			"specifier": "lodash-es",
+			"entry": "lodash-es",
+			"name": "lodash-es",
+			"version": "4.18.1",
+			"description": "Lodash exported as ES modules.",
+			"peerDependencies": [],
+			"include": {
+				"unminified": {
+					"size": 294289,
+					"gzip": 56417,
+					"brotli": 45076
+				},
+				"minified": {
+					"size": 97853,
+					"gzip": 35990,
+					"brotli": 30920
+				},
+				"breakdown": [
+					{
+						"name": "lodash-es",
+						"bytes": 97196,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 634630,
+					"packages": 1
+				}
+			},
+			"exclude": {
+				"unminified": {
+					"size": 294289,
+					"gzip": 56417,
+					"brotli": 45076
+				},
+				"minified": {
+					"size": 97853,
+					"gzip": 35990,
+					"brotli": 30920
+				},
+				"breakdown": [
+					{
+						"name": "lodash-es",
+						"bytes": 97196,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 634630,
+					"packages": 1
+				}
+			},
+			"measuredAt": "2026-09-16T13:44:55.815Z"
+		},
+		{
+			"specifier": "luxon",
+			"entry": "luxon",
+			"name": "luxon",
+			"version": "3.7.2",
+			"description": "Immutable date wrapper",
+			"peerDependencies": [],
+			"include": {
+				"unminified": {
+					"size": 235174,
+					"gzip": 50579,
+					"brotli": 41247
+				},
+				"minified": {
+					"size": 71187,
+					"gzip": 22145,
+					"brotli": 19823
+				},
+				"breakdown": [
+					{
+						"name": "luxon",
+						"bytes": 71077,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 4592735,
+					"packages": 1
+				}
+			},
+			"exclude": {
+				"unminified": {
+					"size": 235174,
+					"gzip": 50579,
+					"brotli": 41247
+				},
+				"minified": {
+					"size": 71187,
+					"gzip": 22145,
+					"brotli": 19823
+				},
+				"breakdown": [
+					{
+						"name": "luxon",
+						"bytes": 71077,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 4592735,
+					"packages": 1
+				}
+			},
+			"measuredAt": "2026-09-16T13:44:55.405Z"
+		},
+		{
+			"specifier": "marked",
+			"entry": "marked",
+			"name": "marked",
+			"version": "18.0.13",
+			"description": "A markdown parser built for speed",
+			"peerDependencies": [],
+			"include": {
+				"unminified": {
+					"size": 58266,
+					"gzip": 14733,
+					"brotli": 13306
+				},
+				"minified": {
+					"size": 44717,
+					"gzip": 13426,
+					"brotli": 12292
+				},
+				"breakdown": [
+					{
+						"name": "marked",
+						"bytes": 44608,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 494656,
+					"packages": 1
+				}
+			},
+			"exclude": {
+				"unminified": {
+					"size": 58266,
+					"gzip": 14733,
+					"brotli": 13306
+				},
+				"minified": {
+					"size": 44717,
+					"gzip": 13426,
+					"brotli": 12292
+				},
+				"breakdown": [
+					{
+						"name": "marked",
+						"bytes": 44608,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 494656,
+					"packages": 1
+				}
+			},
+			"measuredAt": "2026-09-16T13:44:55.936Z"
+		},
+		{
+			"specifier": "mitt",
+			"entry": "mitt",
+			"name": "mitt",
+			"version": "3.0.1",
+			"description": "Tiny 200b functional Event Emitter / pubsub.",
+			"peerDependencies": [],
+			"include": {
+				"unminified": {
+					"size": 799,
+					"gzip": 405,
+					"brotli": 371
+				},
+				"minified": {
+					"size": 437,
+					"gzip": 269,
+					"brotli": 235
+				},
+				"breakdown": [
+					{
+						"name": "mitt",
+						"bytes": 331,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 26444,
+					"packages": 1
+				}
+			},
+			"exclude": {
+				"unminified": {
+					"size": 799,
+					"gzip": 405,
+					"brotli": 371
+				},
+				"minified": {
+					"size": 437,
+					"gzip": 269,
+					"brotli": 235
+				},
+				"breakdown": [
+					{
+						"name": "mitt",
+						"bytes": 331,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 26444,
+					"packages": 1
+				}
+			},
+			"measuredAt": "2026-09-16T13:44:55.971Z"
+		},
+		{
+			"specifier": "nanoid",
+			"entry": "nanoid",
+			"name": "nanoid",
+			"version": "6.0.1",
+			"description": "A tiny (118 bytes), secure URL-friendly unique string ID generator",
+			"peerDependencies": [],
+			"include": {
+				"unminified": {
+					"size": 1932,
+					"gzip": 739,
+					"brotli": 652
+				},
+				"minified": {
+					"size": 785,
+					"gzip": 500,
+					"brotli": 436
+				},
+				"breakdown": [
+					{
+						"name": "nanoid",
+						"bytes": 679,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 14692,
+					"packages": 1
+				}
+			},
+			"exclude": {
+				"unminified": {
+					"size": 1932,
+					"gzip": 739,
+					"brotli": 652
+				},
+				"minified": {
+					"size": 785,
+					"gzip": 500,
+					"brotli": 436
+				},
+				"breakdown": [
+					{
+						"name": "nanoid",
+						"bytes": 679,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 14692,
+					"packages": 1
+				}
+			},
+			"measuredAt": "2026-09-16T13:44:56.000Z"
+		},
+		{
+			"specifier": "preact",
+			"entry": "preact",
+			"name": "preact",
+			"version": "10.29.8",
+			"description": "Fast 3kb React-compatible Virtual DOM library.",
+			"peerDependencies": [],
+			"include": {
+				"unminified": {
+					"size": 17356,
+					"gzip": 5805,
+					"brotli": 5175
+				},
+				"minified": {
+					"size": 11827,
+					"gzip": 4913,
+					"brotli": 4485
+				},
+				"breakdown": [
+					{
+						"name": "preact",
+						"bytes": 11718,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 1561257,
+					"packages": 1
+				}
+			},
+			"exclude": {
+				"unminified": {
+					"size": 17356,
+					"gzip": 5805,
+					"brotli": 5175
+				},
+				"minified": {
+					"size": 11827,
+					"gzip": 4913,
+					"brotli": 4485
+				},
+				"breakdown": [
+					{
+						"name": "preact",
+						"bytes": 11718,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 1561257,
+					"packages": 1
+				}
+			},
+			"measuredAt": "2026-09-16T13:44:55.995Z"
+		},
+		{
+			"specifier": "react-dom",
+			"entry": "react-dom/client",
+			"name": "react-dom",
+			"version": "19.3.0",
+			"description": "React package for working with the DOM.",
+			"peerDependencies": [
+				"react"
+			],
+			"include": {
+				"unminified": {
+					"size": 672823,
+					"gzip": 113757,
+					"brotli": 91285
+				},
+				"minified": {
+					"size": 222681,
+					"gzip": 68877,
+					"brotli": 59322
+				},
+				"breakdown": [
+					{
+						"name": "react-dom",
+						"bytes": 209141,
+						"peer": false
+					},
+					{
+						"name": "react",
+						"bytes": 7993,
+						"peer": true
+					},
+					{
+						"name": "scheduler",
+						"bytes": 3689,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 8325104,
+					"packages": 3
+				}
+			},
+			"exclude": {
+				"unminified": {
+					"size": 653953,
+					"gzip": 110084,
+					"brotli": 88807
+				},
+				"minified": {
+					"size": 214618,
+					"gzip": 66495,
+					"brotli": 57470
+				},
+				"breakdown": [
+					{
+						"name": "react-dom",
+						"bytes": 209113
+					},
+					{
+						"name": "scheduler",
+						"bytes": 3689
+					}
+				],
+				"install": {
+					"size": 8146441,
+					"packages": 2
+				}
+			},
+			"measuredAt": "2026-09-16T13:44:58.265Z"
+		},
+		{
+			"specifier": "solid-js",
+			"entry": "solid-js",
+			"name": "solid-js",
+			"version": "1.9.15",
+			"description": "A declarative JavaScript library for building user interfaces.",
+			"peerDependencies": [],
+			"include": {
+				"unminified": {
+					"size": 53919,
+					"gzip": 12671,
+					"brotli": 11404
+				},
+				"minified": {
+					"size": 22570,
+					"gzip": 8733,
+					"brotli": 8022
+				},
+				"breakdown": [
+					{
+						"name": "solid-js",
+						"bytes": 22460,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 3589676,
+					"packages": 4
+				}
+			},
+			"exclude": {
+				"unminified": {
+					"size": 53919,
+					"gzip": 12671,
+					"brotli": 11404
+				},
+				"minified": {
+					"size": 22570,
+					"gzip": 8733,
+					"brotli": 8022
+				},
+				"breakdown": [
+					{
+						"name": "solid-js",
+						"bytes": 22460,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 3589676,
+					"packages": 4
+				}
+			},
+			"measuredAt": "2026-09-16T13:44:56.251Z"
+		},
+		{
+			"specifier": "svelte",
+			"entry": "svelte",
+			"name": "svelte",
+			"version": "5.57.0",
+			"description": "Cybernetically enhanced web apps",
+			"peerDependencies": [],
+			"include": {
+				"unminified": {
+					"size": 136733,
+					"gzip": 30381,
+					"brotli": 25621
+				},
+				"minified": {
+					"size": 47174,
+					"gzip": 17114,
+					"brotli": 15507
+				},
+				"breakdown": [
+					{
+						"name": "svelte",
+						"bytes": 46980,
+						"peer": false
+					},
+					{
+						"name": "esm-env",
+						"bytes": 84,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 5170909,
+					"packages": 19
+				}
+			},
+			"exclude": {
+				"unminified": {
+					"size": 136733,
+					"gzip": 30381,
+					"brotli": 25621
+				},
+				"minified": {
+					"size": 47174,
+					"gzip": 17114,
+					"brotli": 15507
+				},
+				"breakdown": [
+					{
+						"name": "svelte",
+						"bytes": 46980,
+						"peer": false
+					},
+					{
+						"name": "esm-env",
+						"bytes": 84,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 5170909,
+					"packages": 19
+				}
+			},
+			"measuredAt": "2026-09-16T13:45:02.533Z"
+		},
+		{
+			"specifier": "three",
+			"entry": "three",
+			"name": "three",
+			"version": "0.186.0",
+			"description": "JavaScript 3D library",
+			"peerDependencies": [],
+			"include": {
+				"unminified": {
+					"size": 1710203,
+					"gzip": 307243,
+					"brotli": 231035
+				},
+				"minified": {
+					"size": 742871,
+					"gzip": 190384,
+					"brotli": 154994
+				},
+				"breakdown": [
+					{
+						"name": "three",
+						"bytes": 742550,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 20443175,
+					"packages": 1
+				}
+			},
+			"exclude": {
+				"unminified": {
+					"size": 1710203,
+					"gzip": 307243,
+					"brotli": 231035
+				},
+				"minified": {
+					"size": 742871,
+					"gzip": 190384,
+					"brotli": 154994
+				},
+				"breakdown": [
+					{
+						"name": "three",
+						"bytes": 742550,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 20443175,
+					"packages": 1
+				}
+			},
+			"measuredAt": "2026-09-16T13:45:01.155Z"
+		},
+		{
+			"specifier": "vue",
+			"entry": "vue",
+			"name": "vue",
+			"version": "3.5.42",
+			"description": "The progressive JavaScript framework for building modern web UI.",
+			"peerDependencies": [],
+			"include": {
+				"unminified": {
+					"size": 379411,
+					"gzip": 88940,
+					"brotli": 73136
+				},
+				"minified": {
+					"size": 126214,
+					"gzip": 49377,
+					"brotli": 44098
+				},
+				"breakdown": [
+					{
+						"name": "@vue/runtime-core",
+						"bytes": 71147,
+						"peer": false
+					},
+					{
+						"name": "@vue/runtime-dom",
+						"bytes": 24300,
+						"peer": false
+					},
+					{
+						"name": "@vue/reactivity",
+						"bytes": 17986,
+						"peer": false
+					},
+					{
+						"name": "@vue/shared",
+						"bytes": 8333,
+						"peer": false
+					},
+					{
+						"name": "vue",
+						"bytes": 3473,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 16968375,
+					"packages": 23
+				}
+			},
+			"exclude": {
+				"unminified": {
+					"size": 379411,
+					"gzip": 88940,
+					"brotli": 73136
+				},
+				"minified": {
+					"size": 126214,
+					"gzip": 49377,
+					"brotli": 44098
+				},
+				"breakdown": [
+					{
+						"name": "@vue/runtime-core",
+						"bytes": 71147,
+						"peer": false
+					},
+					{
+						"name": "@vue/runtime-dom",
+						"bytes": 24300,
+						"peer": false
+					},
+					{
+						"name": "@vue/reactivity",
+						"bytes": 17986,
+						"peer": false
+					},
+					{
+						"name": "@vue/shared",
+						"bytes": 8333,
+						"peer": false
+					},
+					{
+						"name": "vue",
+						"bytes": 3473,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 16968375,
+					"packages": 23
+				}
+			},
+			"measuredAt": "2026-09-16T13:45:03.426Z"
+		},
+		{
+			"specifier": "zod",
+			"entry": "zod",
+			"name": "zod",
+			"version": "4.6.5",
+			"description": "TypeScript-first schema declaration and validation library with static type inference",
+			"peerDependencies": [],
+			"include": {
+				"unminified": {
+					"size": 762071,
+					"gzip": 115689,
+					"brotli": 91593
+				},
+				"minified": {
+					"size": 457235,
+					"gzip": 92702,
+					"brotli": 76364
+				},
+				"breakdown": [
+					{
+						"name": "zod",
+						"bytes": 457125,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 6140311,
+					"packages": 1
+				}
+			},
+			"exclude": {
+				"unminified": {
+					"size": 762071,
+					"gzip": 115689,
+					"brotli": 91593
+				},
+				"minified": {
+					"size": 457235,
+					"gzip": 92702,
+					"brotli": 76364
+				},
+				"breakdown": [
+					{
+						"name": "zod",
+						"bytes": 457125,
+						"peer": false
+					}
+				],
+				"install": {
+					"size": 6140311,
+					"packages": 1
+				}
+			},
+			"measuredAt": "2026-09-16T13:45:02.385Z"
+		}
+	]
+}

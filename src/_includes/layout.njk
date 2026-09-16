@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{% if title %}{{ title }} — {% endif %}Bundlewhys</title>
+	<meta name="description" content="Bundle sizes of front-end packages on npm.">
+	<meta name="generator" content="{{ buildawesome.generator }}">
+	<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+	<header>
+		<a href="/" class="site-name">Bundlewhys</a>
+	</header>
+	<main>
+		{{ content | safe }}
+	</main>
+	<footer>
+		<p>Measured {{ sizes.generatedAt | readableDate }} with esbuild (browser, ESM, minified, <code>NODE_ENV=production</code>). Sizes include all exports and bundled dependencies. Imports resolve through ESM <code>import</code> conditions, not CommonJS <code>require</code>.</p>
+		<p>Built with <a href="https://build.awesome.me/">Build Awesome</a>.</p>
+	</footer>
+	<script type="module" src="/assets/js/site.js"></script>
+</body>
+</html>
